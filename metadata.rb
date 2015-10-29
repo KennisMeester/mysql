@@ -13,12 +13,6 @@ supports 'scientific'
 supports 'fedora'
 supports 'debian'
 supports 'ubuntu'
-supports 'smartos'
-supports 'omnios'
-supports 'suse'
-
-depends 'yum-mysql-community'
-depends 'smf'
 
 source_url 'https://github.com/chef-cookbooks/mysql' if respond_to?(:source_url)
 issues_url 'https://github.com/chef-cookbooks/mysql/issues' if respond_to?(:issues_url)
